@@ -24,7 +24,7 @@ const LIMITS = {
   truck: { min: 0, max: 1500, step: 25 },
   weeks: { min: 36, max: 50, step: 1 },
   mpg: { min: 5, max: 9, step: 0.1 },
-  diesel: { min: 3, max: 6, step: 0.05 },
+  diesel: { min: 3, max: 7, step: 0.05 },
   theirFee: { min: 5, max: 35, step: 1 },
   theirFixed: { min: 0, max: 1500, step: 25 },
 } as const;
@@ -153,12 +153,12 @@ export function OfferCalculator() {
 
               <div className="border-t border-divider pt-6">
                 <Switch checked={v.fuel} onChange={(c) => set("fuel", c)} label="Include fuel">
-                  See your net after diesel, based on your truck&apos;s MPG.
+                  See your net after fuel, based on your truck&apos;s MPG.
                 </Switch>
                 {v.fuel && (
                   <div className="mt-6 grid gap-7">
                     <Slider label="Fuel economy" k="mpg" v={v} set={set} fmt={(n) => `${n.toFixed(1)} mpg`} />
-                    <Slider label="Diesel price" k="diesel" v={v} set={set} fmt={(n) => `${usd(n, 2)}/gal`} />
+                    <Slider label="Fuel price" k="diesel" v={v} set={set} fmt={(n) => `${usd(n, 2)}/gal`} />
                   </div>
                 )}
               </div>

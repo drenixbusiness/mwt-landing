@@ -8,7 +8,7 @@ type Ctx = { position: Position; setPosition: (p: Position) => void };
 const PositionContext = createContext<Ctx | null>(null);
 
 /** Keeps the Positions toggle and the application form's Position field in sync. */
-export function PositionProvider({ children, initial = "company" }: { children: ReactNode; initial?: Position }) {
+export function PositionProvider({ children, initial = "owner" }: { children: ReactNode; initial?: Position }) {
   const [position, setPosition] = useState<Position>(initial);
   return (
     <PositionContext.Provider value={{ position, setPosition }}>{children}</PositionContext.Provider>

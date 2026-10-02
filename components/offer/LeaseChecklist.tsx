@@ -8,12 +8,12 @@ import { SectionHeading } from "../ui";
 const ITEMS = [
   { title: "Class A CDL", text: "Valid, with the endorsements for the freight you plan to haul." },
   { title: "DOT medical card", text: "Current, not expiring in the next 30 days." },
-  { title: "Truck title or lease", text: "Proof you own the truck or have the right to operate it." },
   { title: "Annual DOT inspection", text: "Report dated within the last 12 months." },
-  { title: "Form 2290 receipt", text: "Stamped Schedule 1 for heavy vehicle use tax." },
+  { title: "Truck title or lease", text: "Proof you own the truck or have the right to operate it." },
   { title: "Truck registration", text: "Current cab card for the power unit." },
-  { title: "W-9", text: "For your business or as an individual — tells us how to pay you." },
+  { title: "Form 2290 receipt", text: "Stamped Schedule 1 for heavy vehicle use tax." },
   { title: "Bank details", text: "Account for weekly direct deposit of your settlement." },
+  { title: "Shipment", text: "We ship everything you need to get your truck ready for work." },
 ];
 
 const KEY = "mwt-lease-checklist";

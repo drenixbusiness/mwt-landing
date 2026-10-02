@@ -13,7 +13,7 @@ const FAQS = [
   },
   {
     q: "How long does hiring take?",
-    a: "A recruiter calls back after you apply. Once background, MVR and drug test clear, you go through orientation and get dispatched.",
+    a: "Hiring typically takes 2 days. The sooner you complete your application, send in your documents, and take your drug test, the sooner we can get you started. Once your background check, MVR, and drug test clear, you’ll complete orientation and get dispatched.",
   },
   {
     q: "Do you hire owner-operators?",

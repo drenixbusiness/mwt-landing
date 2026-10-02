@@ -9,11 +9,11 @@ export const SITE = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 };
 
-export type Position = "company" | "owner";
+export type Position = "owner" | "company";
 
 export const POSITION_LABELS: Record<Position, string> = {
-  company: "Company driver",
   owner: "Owner-operator",
+  company: "Company driver"
 };
 
 export const EXPERIENCE_OPTIONS = [

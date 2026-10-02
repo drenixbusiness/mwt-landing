@@ -1,10 +1,10 @@
 import { SectionHeading } from "./ui";
 
 const STOPS = [
-  { title: "Apply", text: "Two-minute form below, or call the recruiting line." },
-  { title: "Recruiter call", text: "We go over pay, lanes and home time with you." },
+  { title: "Apply", text: "Two-minute form below, or call the HR line." },
+  { title: "HR call", text: "We go over pay, lanes and home time with you." },
   { title: "Checks + orientation", text: "Background, MVR and drug test, then orientation." },
-  { title: "Dispatched", text: "Meet your dispatcher, get your truck, take your first load." },
+  { title: "Dispatched", text: "Meet your dispatcher, plan your route, take your first load." },
 ];
 
 const MARKERS = [
@@ -17,7 +17,7 @@ const MARKERS = [
 export function HiringRoute() {
   return (
     <section id="route" aria-labelledby="route-title" className="wrap section-gap" data-reveal>
-      <SectionHeading id="route-title" kicker="04 · Hiring route" title="Four stops to your first load." />
+      <SectionHeading id="route-title" kicker="04 · Hiring route" title="Four steps to your first load." />
 
       <ol className="mt-14 grid grid-cols-[repeat(auto-fit,minmax(min(100%,250px),1fr))] gap-y-12">
         {STOPS.map((s, i) => (
@@ -27,7 +27,7 @@ export function HiringRoute() {
               {i < STOPS.length - 1 && <span className="mx-3 h-0 flex-1 border-t-2 border-dashed border-accent" />}
             </div>
             <div className="pr-8 pt-6">
-              <p className="kicker">Stop {String(i + 1).padStart(2, "0")}</p>
+              <p className="kicker">Step {String(i + 1).padStart(2, "0")}</p>
               <h3 className="display mt-3 text-[clamp(28px,2.4vw,36px)]">{s.title}</h3>
               <p className="mt-3 max-w-[18rem] text-ink/75">{s.text}</p>
             </div>

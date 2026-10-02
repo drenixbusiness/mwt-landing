@@ -27,8 +27,8 @@ export const metadata: Metadata = {
 const WHY: { icon: LucideIcon; title: string; text: string }[] = [
   { icon: Hand, title: "No forced dispatch", text: "You pick the loads. Turning one down never costs you the next." },
   { icon: Headphones, title: "One dispatcher, by name", text: "Same person every week, who knows your truck, lanes and home days." },
-  { icon: CalendarClock, title: "Next load booked early", text: "Your reload is lined up before you deliver, so the wheels keep turning." },
-  { icon: Fuel, title: "Fuel card on day one", text: "Partner discounts set up before your first dispatch." },
+  { icon: CalendarClock, title: "Next load booked early", text: "We plan at least a week’s worth of loads in advance to keep you moving." },
+  { icon: Fuel, title: "Fuel card on day one", text: "Bigger fuel discounts than most other cards." },
   { icon: ReceiptText, title: "Itemized settlements", text: "Every line on your settlement matches a line on this page." },
   { icon: ShieldCheck, title: "Permits + IFTA handled", text: "We file the paperwork that keeps you legal and rolling." },
 ];

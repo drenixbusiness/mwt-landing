@@ -113,7 +113,7 @@ export function ApplyForm({ kicker = "06 · Apply" }: { kicker?: string }) {
             <span className="block">to roll?</span>
           </h2>
           <p className="mt-8 max-w-[28rem] text-[clamp(17px,1.4vw,20px)] text-accent-100">
-            Leave your details and a recruiter calls you back. Prefer to talk now? Call or text.
+            Leave your details and a HR calls you back. Prefer to talk now? Call or text.
           </p>
           <a
             href={SITE.phoneHref}
