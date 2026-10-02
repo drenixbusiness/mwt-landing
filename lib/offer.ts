@@ -4,7 +4,7 @@
  */
 export const OFFER = {
   weeklyGross: { min: 9000, max: 13000 },
-  rpm: { min: 2.5, max: 3.5 },
+  rpm: { min: 2.8, max: 4.0 },
   dispatchPct: 12,
   fixedWeekly: [
     { label: "Insurance", note: "Liability + cargo", amount: 400 },
